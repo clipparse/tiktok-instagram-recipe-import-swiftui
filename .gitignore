@@ -1,0 +1,12 @@
+# Your API key (copy RecipeImport/Secrets.example.swift to RecipeImport/Secrets.swift)
+RecipeImport/Secrets.swift
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+# Not pinned, so a fresh clone resolves the latest 1.x SDK
+RecipeImport.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+.DS_Store

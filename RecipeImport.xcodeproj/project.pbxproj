@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0000000000000000000101 /* RecipeImportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* RecipeImportApp.swift */; };
+		BB0000000000000000000102 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* ImportView.swift */; };
+		BB0000000000000000000103 /* RecipeImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* RecipeImportModel.swift */; };
+		BB0000000000000000000104 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* RecipeView.swift */; };
+		BB0000000000000000000105 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* Secrets.swift */; };
+		BB0000000000000000000106 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* ImportView.swift */; };
+		BB0000000000000000000107 /* RecipeImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* RecipeImportModel.swift */; };
+		BB0000000000000000000108 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* RecipeView.swift */; };
+		BB0000000000000000000109 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* Secrets.swift */; };
+		BB0000000000000000000110 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* ShareViewController.swift */; };
+		BB0000000000000000000150 /* ClipParse in Frameworks */ = {isa = PBXBuildFile; productRef = BB0000000000000000000902 /* ClipParse */; };
+		BB0000000000000000000151 /* ClipParse in Frameworks */ = {isa = PBXBuildFile; productRef = BB0000000000000000000903 /* ClipParse */; };
+		BB0000000000000000000152 /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000201 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0000000000000000000511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0000000000000000000600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0000000000000000000501;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB0000000000000000000407 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB0000000000000000000152 /* ShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB0000000000000000000001 /* RecipeImportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImportApp.swift; sourceTree = "<group>"; };
+		BB0000000000000000000002 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000003 /* RecipeImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImportModel.swift; sourceTree = "<group>"; };
+		BB0000000000000000000004 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000005 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		BB0000000000000000000006 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BB0000000000000000000020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0000000000000000000200 /* RecipeImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000000000000000000201 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0000000000000000000402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000150 /* ClipParse in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000000000000000000405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000151 /* ClipParse in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0000000000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000302 /* RecipeImport */,
+				BB0000000000000000000304 /* ShareExtension */,
+				BB0000000000000000000303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000302 /* RecipeImport */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000001 /* RecipeImportApp.swift */,
+				BB0000000000000000000002 /* ImportView.swift */,
+				BB0000000000000000000003 /* RecipeImportModel.swift */,
+				BB0000000000000000000004 /* RecipeView.swift */,
+				BB0000000000000000000005 /* Secrets.swift */,
+			);
+			path = RecipeImport;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000304 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000006 /* ShareViewController.swift */,
+				BB0000000000000000000020 /* Info.plist */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000200 /* RecipeImport.app */,
+				BB0000000000000000000201 /* ShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0000000000000000000500 /* RecipeImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0000000000000000000802 /* Build configuration list for PBXNativeTarget "RecipeImport" */;
+			buildPhases = (
+				BB0000000000000000000401 /* Sources */,
+				BB0000000000000000000402 /* Frameworks */,
+				BB0000000000000000000403 /* Resources */,
+				BB0000000000000000000407 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0000000000000000000510 /* PBXTargetDependency */,
+			);
+			name = RecipeImport;
+			packageProductDependencies = (
+				BB0000000000000000000902 /* ClipParse */,
+			);
+			productName = RecipeImport;
+			productReference = BB0000000000000000000200 /* RecipeImport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0000000000000000000501 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0000000000000000000803 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				BB0000000000000000000404 /* Sources */,
+				BB0000000000000000000405 /* Frameworks */,
+				BB0000000000000000000406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			packageProductDependencies = (
+				BB0000000000000000000903 /* ClipParse */,
+			);
+			productName = ShareExtension;
+			productReference = BB0000000000000000000201 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0000000000000000000600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BB0000000000000000000500 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BB0000000000000000000501 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BB0000000000000000000801 /* Build configuration list for PBXProject "RecipeImport" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0000000000000000000301;
+			packageReferences = (
+				BB0000000000000000000901 /* XCRemoteSwiftPackageReference "clipparse-ios-sdk" */,
+			);
+			productRefGroup = BB0000000000000000000303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0000000000000000000500 /* RecipeImport */,
+				BB0000000000000000000501 /* ShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0000000000000000000403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000000000000000000406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0000000000000000000401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000101 /* RecipeImportApp.swift in Sources */,
+				BB0000000000000000000102 /* ImportView.swift in Sources */,
+				BB0000000000000000000103 /* RecipeImportModel.swift in Sources */,
+				BB0000000000000000000104 /* RecipeView.swift in Sources */,
+				BB0000000000000000000105 /* Secrets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000000000000000000404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000106 /* ImportView.swift in Sources */,
+				BB0000000000000000000107 /* RecipeImportModel.swift in Sources */,
+				BB0000000000000000000108 /* RecipeView.swift in Sources */,
+				BB0000000000000000000109 /* Secrets.swift in Sources */,
+				BB0000000000000000000110 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0000000000000000000510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0000000000000000000501 /* ShareExtension */;
+			targetProxy = BB0000000000000000000511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB0000000000000000000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0000000000000000000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0000000000000000000703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Import";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RecipeImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0000000000000000000704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Import";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RecipeImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0000000000000000000705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Import";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RecipeImport.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0000000000000000000706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Recipe Import";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RecipeImport.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0000000000000000000801 /* Build configuration list for PBXProject "RecipeImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000000000000000000701 /* Debug */,
+				BB0000000000000000000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0000000000000000000802 /* Build configuration list for PBXNativeTarget "RecipeImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000000000000000000703 /* Debug */,
+				BB0000000000000000000704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0000000000000000000803 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000000000000000000705 /* Debug */,
+				BB0000000000000000000706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB0000000000000000000901 /* XCRemoteSwiftPackageReference "clipparse-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/clipparse/clipparse-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB0000000000000000000902 /* ClipParse */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0000000000000000000901 /* XCRemoteSwiftPackageReference "clipparse-ios-sdk" */;
+			productName = ClipParse;
+		};
+		BB0000000000000000000903 /* ClipParse */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0000000000000000000901 /* XCRemoteSwiftPackageReference "clipparse-ios-sdk" */;
+			productName = ClipParse;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB0000000000000000000600 /* Project object */;
+}
