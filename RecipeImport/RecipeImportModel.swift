@@ -51,6 +51,8 @@ func importErrorMessage(for error: Error) -> String {
         return "Recipe import isn't available right now."
     case ClipParseError.quotaExceeded, ClipParseError.rateLimited:
         return "Too many imports right now. Try again later."
+    case ClipParseError.network:
+        return "Check your connection and try again."
     default:
         return "Something went wrong. Please try again."
     }
